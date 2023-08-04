@@ -35,7 +35,7 @@ body {
 
 .hero h1 {
   font-family: 'Sacramento', cursive;
-  font-size: 4rem;
+  font-size: 6rem;
 }
 
 .hero h4 {
@@ -80,7 +80,7 @@ body {
 .home {
   background-image: url(img/floral4.jpeg);
   background-size: cover;
-  min-height: 100vh;
+  min-height: 180vh;
   margin-top: -6rem;
   padding-top: 15rem;
   padding-bottom: 5rem;
@@ -379,7 +379,7 @@ body {
   }
 
   .simply-countdown > .simply-section {
-    padding: 40px;
+    padding: 37px;
     margin: 3px;
   }
 
@@ -389,14 +389,14 @@ body {
   }
 
   .timeline li .timeline-panel {
-    width: 60%;
+    width: 62%;
     transform: translateX(-20px);
   }
 
   .timeline li .timeline-panel::before {
-    top: 25px;
+    top: 26px;
   }
   .timeline li .timeline-panel::after {
-    top: 26px;
+    top: 27px;
   }
 }
