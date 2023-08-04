@@ -35,7 +35,7 @@ body {
 
 .hero h1 {
   font-family: 'Sacramento', cursive;
-  font-size: 6rem;
+  font-size: 4rem;
 }
 
 .hero h4 {
@@ -80,7 +80,7 @@ body {
 .home {
   background-image: url(img/floral4.jpeg);
   background-size: cover;
-  min-height: 160vh;
+  min-height: 150vh;
   margin-top: -6rem;
   padding-top: 15rem;
   padding-bottom: 5rem;
