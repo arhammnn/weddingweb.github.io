@@ -80,7 +80,7 @@ body {
 .home {
   background-image: url(img/floral4.jpeg);
   background-size: cover;
-  min-height: 150vh;
+  min-height: 100vh;
   margin-top: -6rem;
   padding-top: 15rem;
   padding-bottom: 5rem;
@@ -379,7 +379,7 @@ body {
   }
 
   .simply-countdown > .simply-section {
-    padding: 45px;
+    padding: 40px;
     margin: 3px;
   }
 
@@ -389,7 +389,7 @@ body {
   }
 
   .timeline li .timeline-panel {
-    width: 65%;
+    width: 60%;
     transform: translateX(-20px);
   }
 
