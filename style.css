@@ -86,7 +86,8 @@ body {
   padding-bottom: 5rem;
 }
 
-.home h2, .info h2, .story h2, .gallery h2, .rsvp h2{
+.home h2, .info h2, .story h2, .gallery h2, .rsvp h2,
+.gifts h2 {
   color: rgb(89, 31, 31);
   font-family: 'Sacramento';
   font-size: 5rem;
@@ -174,12 +175,12 @@ body {
   font-weight: 400;
 }
 
-.story, .gallery, .rsvp {
+.story, .gallery, .rsvp, .gifts {
   padding-top: 10rem;
   padding-bottom: 8rem;
 }
 
-.story span, .gallery span {
+.story span, .gallery span, .gifts span {
   text-transform: uppercase;
   color: #666;
   font-size: 0.9rem;
@@ -188,7 +189,7 @@ body {
   margin-bottom: 1rem;
 }
 
-.story p, .gallery p, .rsvp p {
+.story p, .gallery p, .rsvp p, .gifts p{
   font-size: 1rem;
   font-weight: 400;
 }
@@ -322,6 +323,28 @@ body {
   border: 1px solid  white;
 }
 
+footer {
+  padding: 3rem;
+  background-color: rgb(89, 31, 31);
+  color: white;
+}
+
+footer a {
+  color: rgb(157, 157, 157);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: white;
+}
+
+footer li {
+  list-style: none;
+  display: inline;
+  margin: 0.5rem;
+}
+
 
 
 
@@ -333,6 +356,10 @@ body {
     transform: translateX(-50%) translateY(45px);
   }
 }
+
+
+
+
 
 /* laptop */
 @media (max-width: 992px) {
@@ -377,6 +404,9 @@ body {
     right: auto;
   }
 }
+
+
+
 
 /* tablet */
 @media (max-width: 768px) {
